@@ -23,3 +23,5 @@ https://assetstore.unity.com/packages/3d/props/stylized-rocks-with-magic-rune-19
 https://assetstore.unity.com/packages/3d/elemental-magic-totems-59522
 
 https://assetstore.unity.com/packages/3d/characters/creatures/demon-horror-creature-with-weapon-247792
+
+https://assetstore.unity.com/packages/3d/environments/campfires-torches-models-and-fx-242552
