@@ -24,4 +24,5 @@ https://assetstore.unity.com/packages/3d/elemental-magic-totems-59522
 
 https://assetstore.unity.com/packages/3d/characters/creatures/demon-horror-creature-with-weapon-247792
 
-https://assetstore.unity.com/packages/3d/environments/campfires-torches-models-and-fx-242552
+https://assetstore.unity.com/packages/3d/environments/campfires-torches-models-and-fx-242552 
+  Depends on: https://assetstore.unity.com/packages/vfx/shaders/piloto-studio-shaders-258376
