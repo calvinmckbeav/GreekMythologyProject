@@ -221,6 +221,7 @@ GameObject:
   - component: {fileID: 8411430133783215474}
   - component: {fileID: 5605096791392574539}
   - component: {fileID: 1055479418678667288}
+  - component: {fileID: -5105912255820245905}
   m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
@@ -350,6 +351,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sword: {fileID: 0}
+--- !u!114 &-5105912255820245905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7284181151510755089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a3835f5789ed6748ba94af3d8c5fe97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7167806107512654227
 PrefabInstance:
   m_ObjectHideFlags: 0
