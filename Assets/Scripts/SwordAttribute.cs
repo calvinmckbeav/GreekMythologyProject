@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SwordAttribute : ItemAttribute
 {
+    public GameObject playerSword;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,8 +19,8 @@ public class SwordAttribute : ItemAttribute
 
     public override void Interact()
     {
-        //PlayerAttribute.sword = true;
-
+        Instantiate(playerSword, Camera.main.transform);
         Destroy(gameObject);
+
     }
 }

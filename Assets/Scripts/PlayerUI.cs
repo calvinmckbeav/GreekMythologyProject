@@ -28,7 +28,7 @@ public class PlayerUI : MonoBehaviour
     {
         if (!inDialogue)
         {
-            TextDetect();
+            ItemDetect();
         }
         else
         {
@@ -36,7 +36,7 @@ public class PlayerUI : MonoBehaviour
         }
     }
 
-    void TextDetect()
+    void ItemDetect()
     {
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.forward, out hit, Mathf.Infinity))
@@ -49,23 +49,8 @@ public class PlayerUI : MonoBehaviour
                 if (Input.GetKeyDown(item.interactKey))
                 {
                     item.Interact();
-                    if(item.TryGetComponent(out ItemPickup script))
-                    {
-                        script.PickUp();
-                    }
                 }
             }
-
-            /*else if (hit.collider.gameObject.TryGetComponent(out TalkableAttribute source))
-            {
-                itemInfo.text = source.textDescription;
-                itemInfo.gameObject.SetActive(true);
-                if (Input.GetKeyDown(KeyCode.P))
-                {
-                    DialogueON(source);
-                }
-            }
-            */
 
             else
             {
