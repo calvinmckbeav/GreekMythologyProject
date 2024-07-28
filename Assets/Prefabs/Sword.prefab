@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 6447618630638016219}
   - component: {fileID: 2933211355177534455}
   - component: {fileID: 4710666056539904879}
+  - component: {fileID: 7881983613427060229}
   m_Layer: 0
   m_Name: Sword
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,3 +121,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDescription: Sword [Press F to pick up]
   interactKey: 102
+--- !u!114 &7881983613427060229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822870069479543092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67323cc8b05ca49408440060d93969c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  mainCamera: {fileID: 0}

@@ -49,6 +49,10 @@ public class PlayerUI : MonoBehaviour
                 if (Input.GetKeyDown(item.interactKey))
                 {
                     item.Interact();
+                    if(item.TryGetComponent(out ItemPickup script))
+                    {
+                        script.PickUp();
+                    }
                 }
             }
 
